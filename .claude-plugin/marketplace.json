@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "gfmaciel-plugins",
+  "name": "verified-plugins",
   "description": "Claude Code plugins for teams automating their dev workflow",
   "owner": { "name": "Gabriel Maciel", "email": "gfmaciel@gmail.com" },
   "plugins": [
@@ -11,7 +11,7 @@
       "category": "productivity",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/gfmaciel/gfmaciel-plugins.git",
+        "url": "https://github.com/gfmaciel/verified-plugins.git",
         "path": "plugins/one-page-creator"
       }
     }

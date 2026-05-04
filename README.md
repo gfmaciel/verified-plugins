@@ -1,11 +1,11 @@
-# gfmaciel-plugins
+# verified-plugins
 
 A public Claude Code + Codex plugin marketplace for teams that want to automate dev work but don't know where to start.
 
 ## Install
 
 ```bash
-claude plugins add-marketplace github:gfmaciel/gfmaciel-plugins
+claude plugins add-marketplace github:gfmaciel/verified-plugins
 ```
 
 ## Plugins
@@ -61,4 +61,4 @@ description: Use when [trigger condition]. One sentence, specific.
 - [ ] `AGENTS.md` is plain markdown (no `@` imports or Claude Code-specific syntax)
 - [ ] `CLAUDE.md` contains only `@AGENTS.md`
 - [ ] Plugin listed in root `marketplace.json`
-- [ ] Plugin tested locally with `claude plugins install <name>@gfmaciel-plugins`
+- [ ] Plugin tested locally with `claude plugins install <name>@verified-plugins`
