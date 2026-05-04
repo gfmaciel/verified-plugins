@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "gfmaciel-plugins",
+  "description": "Claude Code plugins for teams automating their dev workflow",
+  "owner": { "name": "Gabriel Maciel", "email": "gfmaciel@gmail.com" },
+  "plugins": [
+    {
+      "name": "one-page-creator",
+      "description": "Generate a one-pager that sells your manager on adopting Claude Code automation",
+      "author": { "name": "Gabriel Maciel" },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/gfmaciel/gfmaciel-plugins.git",
+        "path": "plugins/one-page-creator"
+      }
+    }
+  ]
+}
